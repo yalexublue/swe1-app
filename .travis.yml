@@ -1,3 +1,6 @@
+script:
+  - cd ebdjango
+
 language: python
 
  python:
@@ -16,5 +19,4 @@ language: python
    - coverage run --source=mysite_swe1_app,polls manage.py test
 
  after_script:
- 
    - coveralls
